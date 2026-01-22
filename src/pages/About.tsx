@@ -177,9 +177,9 @@ const About = () => {
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { value: "5+", label: "Years of Experience" },
+              { value: "2+", label: "Years of Experience" },
               { value: "10,000+", label: "Properties Valued" },
-              { value: "8+", label: "Banking Partners" },
+              { value: "5+", label: "Banking Partners" },
               { value: "100%", label: "Client Satisfaction" },
             ].map((stat, index) => (
               <motion.div

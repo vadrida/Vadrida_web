@@ -45,8 +45,7 @@ const AboutSection = () => {
               </p>
               <p>
                 With a commitment to excellence and transparency, we have partnered
-                with major banks including HDFC Bank, South Indian Bank, and DCB Bank
-                to provide seamless valuation services through integrated portal systems.
+                with major banks to provide seamless valuation services through integrated portal systems.
               </p>
             </div>
           </motion.div>

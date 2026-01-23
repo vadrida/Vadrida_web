@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowRight, Clock, Building2, Users, Award, Shield, CheckCircle2, TrendingUp } from "lucide-react";
 import { Link } from "react-router-dom";
-
 const stats = [
   { icon: Award, value: "2+", label: "Years Experience" },
   { icon: Building2, value: "10,000+", label: "Properties Valued" },
@@ -9,11 +8,7 @@ const stats = [
   { icon: Clock, value: "9am-6pm", label: "Report Delivery" },
 ];
 
-const bankPartners = [
-  { name: "HDFC Bank" },
-  { name: "South Indian Bank" },
-  { name: "CSB Bank" },
-];
+
 
 const features = [
   { icon: Shield, text: "Certified Professionals" },
@@ -26,8 +21,8 @@ const HeroSection = () => {
     <section className="relative min-h-screen hero-gradient overflow-hidden">
       {/* Subtle gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-black/20 pointer-events-none" />
-
       {/* Main Content */}
+      
       <div className="container mx-auto px-4 lg:px-8 pt-24 md:pt-32 pb-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <motion.div
@@ -37,11 +32,12 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
               <Shield className="w-4 h-4 text-accent" />
-              <span className="text-sm text-white/90">Trusted by Leading Banks in India</span>
+              <span className="text-sm text-white/90">Trusted by Leading Banks in Kerala</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
-              Precision Property{" "}
-              <span className="gradient-text">Valuations</span>
+              Expert Property Valuation <br /> Certified By <br />
+              <span className="gradient-text">IBBI <br /> </span>
+              
             </h1>
           </motion.div>
 
@@ -51,9 +47,8 @@ const HeroSection = () => {
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl mx-auto font-light"
           >
-            Trusted partner for leading banks in India. Delivering accurate, comprehensive
-            Property valuations with certified professionals. Partnering with HDFC, SIB, CSB
-            and more.
+            Trusted Government approved valuation partner for leading banks in Kerala. Delivering accurate, comprehensive
+            Property valuations for Visa purpose, stamp duty, and all other purposes.
           </motion.p>
 
           {/* Feature Pills */}
@@ -87,12 +82,7 @@ const HeroSection = () => {
               View Our Services
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            {/* <Link
-              to="/contact"
-              className="bg-accent text-accent-foreground px-8 py-3 rounded-full font-semibold hover:shadow-gold transition-all hover:scale-105 inline-flex items-center justify-center"
-            >
-              Get a Quote
-            </Link> */}
+            
           </motion.div>
         </div>
 
@@ -125,20 +115,7 @@ const HeroSection = () => {
           transition={{ duration: 0.8, delay: 1 }}
           className="mt-16 text-center"
         >
-          <p className="text-white/60 mb-6 font-medium uppercase tracking-wider text-sm">
-            Trusted by Leading Banks
-          </p>
-          <div className="flex flex-wrap justify-center gap-4">
-            {bankPartners.map((bank) => (
-              <div
-                key={bank.name}
-                className="bg-white/10 backdrop-blur-sm border border-white/20 rounded-xl px-6 py-4 text-white font-semibold"
-              >
-                {bank.name}
-              </div>
-            ))}
-          </div>
-          <p className="text-white/50 mt-4 text-sm italic">And many more leading banks...</p>
+         
         </motion.div>
 
         {/* Bottom CTA */}
@@ -150,7 +127,7 @@ const HeroSection = () => {
         >
           <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 max-w-2xl mx-auto">
             <h3 className="text-2xl font-heading font-semibold text-white mb-4">
-              Partner With Us for Accurate Valuations
+              Partner With Us for Accurate Valuations.
             </h3>
             <p className="text-white/70 mb-6">
               Join 5+ banking institutions who trust Vadrida for their property valuation needs.

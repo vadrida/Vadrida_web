@@ -53,7 +53,7 @@ const About = () => {
             </h1>
             <p className="text-white/80 text-lg max-w-2xl mx-auto">
               A trusted name in property valuation services, partnering with leading
-              banks across India.
+              banks across Kerala.
             </p>
           </motion.div>
         </div>
@@ -76,12 +76,11 @@ const About = () => {
                 <p>
                   <strong className="text-foreground">Founded by Sanjay Babu</strong>,
                   Vadrida Property Valuations began with a vision to transform the property
-                  valuation industry in India through accuracy, transparency, and professionalism.
+                  valuation industry in Kerala through accuracy, transparency, and professionalism.
                 </p>
                 <p>
                   Over the years, we have established ourselves as a trusted partner for
-                  leading banking institutions including HDFC Bank, South Indian Bank, DCB Bank,
-                  and many more. Our commitment to excellence has enabled us to value over
+                  leading banking institutions. Our commitment to excellence has enabled us to value over
                   10,000 properties across various categories.
                 </p>
                 <p>

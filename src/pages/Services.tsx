@@ -72,15 +72,14 @@ const services = [
   },
   {
     icon: Shield,
-    title: "Legal Compliance Review",
+    title: "Property Valuation for VISA",
     description:
-      "Thorough verification of property documents and legal compliance for secure transactions.",
+      "To ensure that the valuation is done accurately and meets the necessary requirements. Contact us for Valuation in Kerala",
     checklist: [
-      "Title verification",
-      "Encumbrance check",
-      "Building approval review",
-      "Land use compliance",
-      "Ownership validation",
+      "VISA and Immigration from Kerala",
+      "Education VISA",
+      "University Usage",
+      "Tourist and Visitor VISA",
     ],
   },
 ];
@@ -103,7 +102,7 @@ const Services = () => {
             </h1>
             <p className="text-white/80 text-lg max-w-2xl mx-auto">
               Comprehensive property valuation solutions tailored for banking institutions
-              and financial partners across India.
+              and financial partners across Kerala.
             </p>
           </motion.div>
         </div>

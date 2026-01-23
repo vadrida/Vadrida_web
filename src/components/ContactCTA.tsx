@@ -49,7 +49,7 @@ const ContactCTA = () => {
             </div>
             <div className="flex items-center gap-2">
               <Mail className="w-5 h-5 text-accent" />
-              <span>md@vadrida.com</span>
+              <span>info@vadrida.com</span>
             </div>
           </div>
         </motion.div>

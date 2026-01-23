@@ -29,8 +29,9 @@ const AboutPreview = () => {
             <div className="h-1 w-24 bg-accent rounded-full mb-8" />
 
             <p className="text-muted-foreground leading-relaxed mb-6">
-              <strong className="text-foreground">Founded by Sanjay Babu</strong>, Vadrida
-              Property Valuations has established itself as a trusted name in the Property
+              <strong className="text-foreground">Founded by Sanjay Babu</strong>, Vadrida (OPC) Private Limited
+              which is approved by IBBI 
+              has established itself as a trusted name in the Property
               valuation industry across Kerala.
             </p>
             <p className="text-muted-foreground leading-relaxed mb-8">

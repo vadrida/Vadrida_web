@@ -17,7 +17,7 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "md@vadrida.com",
+    value: "info@vadrida.com",
   },
   {
     icon: Clock,
@@ -134,7 +134,7 @@ const Contact = () => {
               Contact us for institutional partnerships and bulk valuation services.
             </p>
             <a
-              href="mailto:md@vadrida.com"
+              href="mailto:info@vadrida.com"
               className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-8 py-3 rounded-full font-semibold hover:bg-primary-hover transition-all"
             >
               <Mail className="w-5 h-5" />

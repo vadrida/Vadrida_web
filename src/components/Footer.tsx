@@ -36,7 +36,7 @@ const Footer = () => {
             </Link>
             <p className="text-black/70 text-sm leading-relaxed mb-6">
               Professional Property valuation services partnering with leading banks
-              across India. Founded by Sanjay Babu.
+              across Kerala. Founded by Sanjay Babu.
             </p>
             {/* <div className="flex gap-3">
               {socialLinks.map((social) => (
@@ -98,7 +98,7 @@ const Footer = () => {
               <li>
                 <strong className="text-black/90">Email:</strong>
                 <br />
-                md@vadrida.com
+                info@vadrida.com
               </li>
             </ul>
           </div>
@@ -108,6 +108,9 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-white/10 text-center text-sm text-black/50">
           <p>
             © 2024 Vadrida Property Valuations. Founded by Sanjay Babu. All rights reserved.
+          </p>
+          <p>
+            Designed and developed : <a href="https://github.com/alnroy/">@Alan Roy</a>
           </p>
         </div>
       </div>

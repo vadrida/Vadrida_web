@@ -35,8 +35,8 @@ const HeroSection = () => {
               <span className="text-sm text-white/90">Trusted by Leading Banks in Kerala</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
-              Expert Property Valuation <br /> Certified By <br />
-              <span className="gradient-text">IBBI <br /> </span>
+              Expert Property Valuation <br /> for  <br />
+              <span className="gradient-text"> land and Buildings<br /> </span>
               
             </h1>
           </motion.div>

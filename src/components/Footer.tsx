@@ -32,7 +32,13 @@ const Footer = () => {
           {/* Company Info */}
           <div>
             <Link to="/" className="flex items-center gap-2 mb-5">
-              <img src={logo} alt="Vadrida Logo" className="w-[200px]" />
+             <img 
+              src={logo}
+              alt="Vadrida Property Valuations Logo" 
+              width="200" 
+              height="106" 
+              className="w-[200px] h-auto object-contain" 
+            />
             </Link>
             <p className="text-black/70 text-sm leading-relaxed mb-6">
               Professional Property valuation services partnering with leading banks

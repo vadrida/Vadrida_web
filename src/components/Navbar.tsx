@@ -41,9 +41,11 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
             <img 
-              src={logo} 
-              alt="Vadrida Logo" 
-              className="h-10 md:h-12 w-auto object-contain" 
+              src={logo}
+              alt="Vadrida Property Valuations Logo" 
+              width="150" 
+              height="106" 
+              className="w-[150px] h-auto object-contain" 
             />
           </Link>
 

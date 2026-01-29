@@ -126,9 +126,9 @@ const HeroSection = () => {
           className="mt-20 text-center"
         >
           <div className="bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 max-w-2xl mx-auto">
-            <h3 className="text-2xl font-heading font-semibold text-white mb-4">
+            <h2 className="text-2xl font-heading font-semibold text-white mb-4">
               Partner With Us for Accurate Valuations.
-            </h3>
+            </h2>
             <p className="text-white/70 mb-6">
               Join 5+ banking institutions who trust Vadrida for their property valuation needs.
             </p>

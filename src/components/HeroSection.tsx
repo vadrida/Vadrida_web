@@ -32,11 +32,11 @@ const HeroSection = () => {
           >
             <div className="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-4 py-2 mb-6">
               <Shield className="w-4 h-4 text-accent" />
-              <span className="text-sm text-white/90">Trusted by Leading Banks in Kerala</span>
+              <span className="text-sm text-white/90">Vadrida (OPC) Private Limited</span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6 leading-tight">
-              Expert Property Valuation <br /> for  <br />
-              <span className="gradient-text"> land and Buildings<br /> </span>
+              Government Approved Valuation<br />
+              <span className="gradient-text">in Kerala<br /> </span>
               
             </h1>
           </motion.div>

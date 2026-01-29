@@ -88,7 +88,7 @@ const Footer = () => {
               <li>
                 <strong className="text-black/90">Address:</strong>
                 <br />
-                Kundannoor, Kochi, Kerala, India
+                W8P9+MGR, Maradu, Ernakulam, Kochi, Kerala 682304
               </li>
               <li>
                 <strong className="text-black/90">Phone:</strong>
